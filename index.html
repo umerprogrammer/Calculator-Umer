@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="main">
+        <div class="container">
+        <div class="input-div">
+            <input type="text" name="inputText" id="inputText1" class="inputText">
+        </div>
+        <div class="btn-div">
+        <div>
+            <input class="btn" type="button" value="1" onClick="getValue(1)">
+            <input class="btn"  type="button" value="4" onClick="getValue(2)">
+            <input class="btn"  type="button" value="7" onClick="getValue(7)">
+            <input class="btn"  type="button" value="C" onClick="clearAll()">
+        </div>
+        <div>
+            <input class="btn"  type="button" value="2" onClick="getValue(2)">
+            <input class="btn"  type="button" value="5" onClick="getValue(5)">
+            <input class="btn"  type="button" value="8" onClick="getValue(8)">
+            <input class="btn"  type="button" value="0" onClick="getValue(0)">
+        </div>
+        <div>
+            <input class="btn"  type="button" value="3" onClick="getValue(3)">
+            <input class="btn"  type="button" value="6" onClick="getValue(6)">
+            <input class="btn"  type="button" value="9" onClick="getValue(9)">
+            <input class="btn"  type="button" value="." onClick="getValue('.')">
+        </div>
+        <div>
+            <input class="btn"  type="button" value="+" onClick="getValue('+')">
+            <input class="btn"  type="button" value="X" onClick="getValue('*')">
+            <input class="btn"  type="button" value="-" onClick="getValue('-')">
+            <input class="btn"  type="button" value="=" onClick="calculate()">
+        </div>
+        </div>
+    </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
